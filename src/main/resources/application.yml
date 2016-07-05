@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      server:
+    
+          uri:  file://C:/Users/cprajaba/Documents/workspace-sts-3.7.3.RELEASE/sample-config 
+
+server:
+  port: 8899
