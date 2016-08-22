@@ -28,6 +28,9 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableAutoConfiguration
 @EnableConfigServer
 @ComponentScan
+@EnableHystrix
+@EnableHystrixDashboard
+@EnableCircuitBreaker
 public class Application {
 	
 	
